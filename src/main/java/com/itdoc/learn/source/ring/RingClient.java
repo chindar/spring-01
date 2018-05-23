@@ -35,7 +35,7 @@ public class RingClient {
         }
     }
 
-    @Test(expected = Exception.class)
+    @Test(expected = BeanCurrentlyInCreationException.class)
     public void testSetter() throws Throwable {
         try {
             ApplicationContext applicationContext = new ClassPathXmlApplicationContext("test/ring-setter-test.xml");
