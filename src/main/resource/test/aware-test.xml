@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="testAware" class="com.itdoc.learn.source.aware.TestBeanFactoryAware"/>
+    <bean id="hello" class="com.itdoc.learn.source.aware.Hello"/>
+
+</beans>
