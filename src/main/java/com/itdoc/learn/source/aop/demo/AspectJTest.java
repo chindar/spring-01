@@ -26,7 +26,6 @@ public class AspectJTest {
 
     @Pointcut("execution(* *.*(..))")
     public void test() {
-        System.out.println("Pointcut");
     }
 
     @Before("test()")
